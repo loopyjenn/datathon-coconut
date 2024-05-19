@@ -1,5 +1,6 @@
 {
   "name": "datathon",
+  "homepage": "https://github.com/loopyjenn/datathon-coconut",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

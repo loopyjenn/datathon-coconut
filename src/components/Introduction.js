@@ -4,7 +4,7 @@ import introImage from '../img/drug.jpg'; // Ensure the correct path to your ima
 function Introduction(props) {
   return (
     <section className="tab-content active">
-      <img src={introImage} alt="Introduction" className="IntroImage" />
+      <img id='intro' src={introImage} alt="Introduction" className="IntroImage" />
       <div className="Introduction">
         <h2>Introduction</h2>
         <p>
