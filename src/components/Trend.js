@@ -11,6 +11,13 @@ const images = {
   type: typeImage,
 };
 
+const analysisReports = {
+  age: 'Age-related analysis content goes here.',
+  sex: 'Sex-related analysis content goes here.',
+  race: 'Race-related analysis content goes here.',
+  type: 'Drug type-related analysis content goes here.',
+};
+
 export function OverdoseTrends() {
   const [selectedFeature, setSelectedFeature] = useState('age');
 
@@ -30,11 +37,11 @@ export function OverdoseTrends() {
         </select>
       </div>
       <div className="chart">
-        <img src={images[selectedFeature]} alt={selectedFeature} />
+        <img src={images[selectedFeature]} alt={`${selectedFeature} trend`} />
       </div>
       <div className="report">
         <h2>Analysis Report</h2>
-        <p>dhef-fehfdhdfhd</p>
+        <p>{analysisReports[selectedFeature]}</p>
       </div>
     </section>
   );
