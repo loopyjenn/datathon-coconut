@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 import ageImage1 from '../img/agem1.png';
 import ageImage2 from '../img/agem2.png';
+import ageImage3 from '../img/agesum.png';
 import sexImage1 from '../img/error.png';
 import sexImage2 from '../img/sex predict.png';
+import sexImage3 from '../img/sexsum.png';
 import raceImage1 from '../img/race1.png';
 import raceImage2 from '../img/race2.png';
+import raceImage3 from '../img/racecal.png';
+
 
 const images = {
-  age: [ageImage1, ageImage2],
-  sex: [sexImage1, sexImage2],
-  race: [raceImage1, raceImage2],
+  age: [ageImage1, ageImage2, ageImage3],
+  sex: [sexImage1, sexImage2, sexImage3],
+  race: [raceImage1, raceImage2, raceImage3]
 };
 
 const analysisReports = {
@@ -22,6 +26,7 @@ const analysisReports = {
   sex: [
     'In this part, we analyze the predicted male drug overdose death rates from a linear regression model, which show a steep initial decline followed by a gradual decrease and eventual stabilization, starting at approximately 7 and dropping to around 2 by the end of the forecast period.',
     'Both linear regression and random forest models indicate a decline in drug overdose death rates for both genders over the next five years, with linear regression demonstrating a more stable, consistent decline, whereas random forest models exhibit more fluctuations, suggesting a nuanced understanding of trends.',
+    'We also evaluate these two models. And in general, the Linear Regression model shows higher R^2 values for both genders, indicating better overall accuracy compared to the Random Forest model. However, the Random Forest model, with its lower RMSE and consistent margins of error, captures the nuanced fluctuations in the data more effectively.',
     'However, linear regression fails to capture the variability in the data for both genders, showing a poor fit, while random forest provides a better fit by capturing more actual trends but still misses some peaks and troughs. The analysis suggests that gender may not be a strong predictor of drug overdose death rates, indicating that other factors might be more significant in determining future rates.',
     'Future analysis should consider including additional variables such as age and drug types involved to enhance prediction accuracy and better capture the complexity of drug overdose trends.'
   ],
