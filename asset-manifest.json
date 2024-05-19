@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/loopyjenn/datathon-coconut/static/css/main.d5e2392e.css",
+    "main.js": "/loopyjenn/datathon-coconut/static/js/main.51ffed5f.js",
+    "static/media/year_2018.png": "/loopyjenn/datathon-coconut/static/media/year_2018.841d1719cb08ba0ef978.png",
+    "static/media/overyear.png": "/loopyjenn/datathon-coconut/static/media/overyear.87d849d19837bd7b6b16.png",
+    "static/media/agem1.png": "/loopyjenn/datathon-coconut/static/media/agem1.309de4730c8f39731fa4.png",
+    "static/media/drug type.png": "/loopyjenn/datathon-coconut/static/media/drug type.8c80010ef09bd93e4eca.png",
+    "static/media/drug.jpg": "/loopyjenn/datathon-coconut/static/media/drug.ae362a943d6a62e55a90.jpg",
+    "static/media/agem2.png": "/loopyjenn/datathon-coconut/static/media/agem2.28310db61abe5d01e1ff.png",
+    "static/media/age.png": "/loopyjenn/datathon-coconut/static/media/age.c53df6e4aec2bead9b25.png",
+    "static/media/error.png": "/loopyjenn/datathon-coconut/static/media/error.cf6f055272a3efc6f186.png",
+    "static/media/race1.png": "/loopyjenn/datathon-coconut/static/media/race1.d0133cbff8576dabd7b6.png",
+    "static/media/race.png": "/loopyjenn/datathon-coconut/static/media/race.4426fe5d03eb81a5807c.png",
+    "static/media/race2.png": "/loopyjenn/datathon-coconut/static/media/race2.33fdd50f7f029224cdf9.png",
+    "static/media/sex predict.png": "/loopyjenn/datathon-coconut/static/media/sex predict.285f67599c79686db063.png",
+    "static/media/sex trend.png": "/loopyjenn/datathon-coconut/static/media/sex trend.a7e06c37438231e7f975.png",
+    "index.html": "/loopyjenn/datathon-coconut/index.html",
+    "main.d5e2392e.css.map": "/loopyjenn/datathon-coconut/static/css/main.d5e2392e.css.map",
+    "main.51ffed5f.js.map": "/loopyjenn/datathon-coconut/static/js/main.51ffed5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e2392e.css",
+    "static/js/main.51ffed5f.js"
+  ]
+}
