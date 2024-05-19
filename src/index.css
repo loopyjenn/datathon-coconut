@@ -163,3 +163,32 @@ h3 {
 label, select {
   font-size: 18px;
 }
+
+img#ml {
+  width: 50%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.conclusion {
+  padding: 20px;
+  background-color: #f0f8ff;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.conclusion h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.conclusion p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+

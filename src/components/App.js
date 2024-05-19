@@ -5,6 +5,8 @@ import { Footer } from './Footer.js';
 import { Routes, Route } from 'react-router-dom';
 import Introduction from './Introduction.js';
 import {OverdoseTrends} from './Trend.js'
+import { MachineLearning } from './MachineLearning.js';
+import { Conclusion } from './Conclusion.js';
 
 import '../index.css'
 
@@ -17,8 +19,8 @@ function App(props) {
         <Route path="/" element={<Introduction /> } />
         <Route path="/overdose-trends" element={<OverdoseTrends />} />
         {/*<Route path="/concern-metric" element={ConcernMetric} /> */}
-        {/*<Route path="/machine-learning" element={MachineLearning} />*/}
-        {/*<Route path="/conclusion" element={Conclusion} />*/}
+        <Route path="/machine-learning" element={<MachineLearning />} />
+        <Route path="/conclusion" element={<Conclusion />} />
    </Routes>
    <Footer />
    </div>

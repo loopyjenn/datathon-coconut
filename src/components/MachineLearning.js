@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ageImage1 from '../img/agem1.png';
 import ageImage2 from '../img/agem2.png';
-import sexImage1 from '../img/sex trend.png';
+import sexImage1 from '../img/error.png';
 import sexImage2 from '../img/sex predict.png';
 import raceImage1 from '../img/race1.png';
 import raceImage2 from '../img/race2.png';
@@ -12,7 +12,13 @@ const images = {
   race: [raceImage1, raceImage2],
 };
 
-export function MachineLearning() {
+const analysisReports = {
+  age: 'Age-related prediction content goes here.',
+  sex: 'Sex-related prediction content goes here.',
+  race: 'Race-related prediction content goes here.',
+};
+
+export function MachineLearning(props) {
   const [selectedFeature, setSelectedFeature] = useState('age');
 
   const handleFeatureChange = (event) => {
@@ -31,14 +37,13 @@ export function MachineLearning() {
       </div>
       <div className="chart">
         {images[selectedFeature].map((image, index) => (
-          <img key={index} src={image} alt={`${selectedFeature}-${index}`} />
+          <img id='ml' key={index} src={image} alt={`${selectedFeature}-${index}`} />
         ))}
       </div>
       <div className="report">
         <h2>Analysis Report</h2>
-        {/* Add analysis report content here */}
+        <p>{analysisReports[selectedFeature]}</p>
       </div>
     </section>
   );
 }
-
