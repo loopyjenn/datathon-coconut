@@ -1,5 +1,5 @@
 import React from 'react';
-import introImage from '../drug.jpg'; // Ensure the correct path to your image
+import introImage from '../img/drug.jpg'; // Ensure the correct path to your image
 
 function Introduction(props) {
   return (
