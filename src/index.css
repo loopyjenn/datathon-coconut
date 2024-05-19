@@ -62,23 +62,22 @@ main {
 }
 
 .tab-content {
-  padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  background-color: #f0f8ff;
+  align-items: center;
+  padding: 20px;
 }
 
 .IntroImage {
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
-  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 60%;
 }
 
 .Introduction {
-  flex: 1;
-  padding: 20px;
   text-align: left;
+  max-width: 800px;
 }
 
 .Introduction h2 {
